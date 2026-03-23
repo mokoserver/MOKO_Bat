@@ -8,7 +8,7 @@ echo  It will automatically detect a PyCharm venv if it exists.
 echo =================================================================
 echo.
 
-set PACKAGES=anyio certifi charset-normalizer et-xmlfile h11 httpcore httpx idna numpy==1.26.4 openpyxl pandas python-dateutil python-telegram-bot pytz requests selenium six sniffio tzdata urllib3 PyQt5 beautifulsoup4 lxml pillow
+set PACKAGES=anyio certifi charset-normalizer et-xmlfile h11 httpcore httpx idna numpy==1.26.4 openpyxl pandas python-dateutil python-telegram-bot pytz requests selenium six sniffio tzdata urllib3 PyQt5 beautifulsoup4 lxml pillow python-docx
 
 REM Check for PyCharm's virtual environment
 if exist .\venv\Scripts\python.exe (
