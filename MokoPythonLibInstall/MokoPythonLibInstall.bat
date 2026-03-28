@@ -17,7 +17,7 @@ set "PACKAGES="anyio" "certifi" "charset-normalizer" "et-xmlfile" "h11" "httpcor
 set "PACKAGES=%PACKAGES% "numpy==1.26.4" "openpyxl" "pandas" "python-dateutil" "python-telegram-bot""
 set "PACKAGES=%PACKAGES% "pytz" "requests" "selenium" "six" "sniffio" "tzdata" "urllib3""
 set "PACKAGES=%PACKAGES% "PyQt5" "beautifulsoup4" "lxml" "pillow" "python-docx""
-set "PACKAGES=%PACKAGES% "webdriver-manager" "pyinstaller""
+set "PACKAGES=%PACKAGES% "webdriver-manager" "pyinstaller" "PySide6""
 
 REM =============================================================
 REM 2. Environment Setup
